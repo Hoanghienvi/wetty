@@ -29,6 +29,7 @@ websockets rather than Ajax and hence better response time.
 
 ```sh
 npm -g i wetty
+
 ```
 
 ## Usage
@@ -83,6 +84,8 @@ To use WeTTY as a docker container, a docker image is available on
 [docker hub](https://hub.docker.com/r/wettyoss/wetty). To run this image, use
 
 ```sh
+wetty --ssh-host=<YOUR-IP>
+
 docker run --rm -p 3000:3000 wettyoss/wetty --ssh-host=<YOUR-IP>
 ```
 
