@@ -84,9 +84,9 @@ To use WeTTY as a docker container, a docker image is available on
 [docker hub](https://hub.docker.com/r/wettyoss/wetty). To run this image, use
 
 ```sh
-wetty --ssh-host=<YOUR-IP>
+wetty --ssh-host=127.0.0.1
 
-docker run --rm -p 3000:3000 wettyoss/wetty --ssh-host=<YOUR-IP>
+docker run --rm -p 3000:3000 wettyoss/wetty --ssh-host=127.0.0.1
 ```
 
 and you will be able to open a ssh session to the host given by `YOUR-IP` under
